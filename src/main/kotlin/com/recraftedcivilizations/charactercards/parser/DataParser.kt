@@ -9,7 +9,7 @@ import java.io.ObjectOutputStream
 class DataParser {
 
 
-    fun getCard(player: Player): CharacterCard {
+    fun getCard(player: Player): CharacterCard? {
         return CharacterCard(mapOf(Pair("Foo", SupportedTypes.STRING)), mapOf(Pair("Foo", "Bar")), player)
     }
 
